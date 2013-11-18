@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Stripe Donations
+Plugin Name: Stripe Donations (Fork)
 Plugin URI: https://uproot.us/
 Description: Accept donations on your site using Stripe.
 Version: 1.0.2
@@ -157,10 +157,13 @@ class StripeDonations
         });
     })(jQuery);
     </script>
-    <script src="https://button.stripe.com/v1/button.js" class="stripe-button"
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" 
         data-key="<?php echo $this->options['publishable_key']; ?>"
         data-amount="<?php echo $amount; ?>"
-        data-label="Donate"></script>
+        data-name="No Noise News"
+        data-description="Good work costs money."
+        data-label="Donate"
+        data-panel-label="Give"></script>
         <div class="donate-response"></div>
     <?php
         return ob_get_clean();

@@ -1,9 +1,9 @@
-=== Stripe Donations ===
+=== Stripe Donations (Fork) ===
 Contributors: logikal16
 Donate link: https://uproot.us/donate/
 Tags: donation, donate, stripe, payment
 Requires at least: 3.4
-Tested up to: 3.5
+Tested up to: 3.7
 Stable tag: trunk
 License: GPL2
 
@@ -14,6 +14,8 @@ Accept donations on your site using the Stripe Button.
 Accept donations on your site using the Stripe Button.
 
 Browse to [https://uproot.us/projects/stripe-donations/](https://uproot.us/projects/stripe-donations/) for more information.
+
+[Forked by CP](https://github.com/coreyp/stripe-donations)
 
 == Installation ==
 
