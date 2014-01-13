@@ -160,7 +160,7 @@ class StripeDonations
     <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" 
         data-key="<?php echo $this->options['publishable_key']; ?>"
         data-amount="<?php echo $amount; ?>"
-        data-name="No Noise News"
+        data-name="Reporters' Registry"
         data-description="Good work costs money."
         data-label="Donate"
         data-panel-label="Give"></script>
